@@ -11,25 +11,29 @@ simple 8080 port http server
 
 ## How-To Build
 
-1\.  create project folder and move to it
+1\. create project folder and move to it
 
-`$ mkdir node.hello.world`
-`$ cd node.hello.world`
+```shell
+mkdir node.hello.world`
+cd node.hello.world`
+```
 
 2\. config node project
 
-`$ npm init`
+```shell
+npm init
+```
 
 answer like this:
 >package name: node-hello-world
-version: 1.0.0
-description: Node Hello World App
-entry point: server.js
-test command:
-git repository:
-keywords:
-author: gtnasser@gmail.com
-license: (ISC)
+>version: 1.0.0
+>description: Node Hello World App
+>entry point: server.js
+>test command:
+>git repository:
+>keywords:
+>author: gtnasser@gmail.com
+>license: (ISC)
 
 to create a package.json file like this:
 ```javascript
@@ -72,7 +76,9 @@ http.createServer(function (req, res) {
 
 4\. run
 
-`$ node server`
+```sh
+node server
+```
 
 ## install & run
 
