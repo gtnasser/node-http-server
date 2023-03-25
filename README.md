@@ -1,4 +1,4 @@
-# http-server
+# node-http-server
 
 simple 8080 port http server
 
@@ -14,8 +14,8 @@ simple 8080 port http server
 1\. create project folder and move to it
 
 ```shell
-mkdir node.hello.world`
-cd node.hello.world`
+mkdir node.http.server`
+cd node.http.server`
 ```
 
 2\. config node project
@@ -25,9 +25,9 @@ npm init
 ```
 
 answer like this:
->package name: node-hello-world
->version: 1.0.0
->description: Node Hello World App
+>package name: (node.http.server)
+>version: (1.0.0)
+>description: Simple node HTTP server
 >entry point: server.js
 >test command:
 >git repository:
